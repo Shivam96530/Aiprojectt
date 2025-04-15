@@ -54,40 +54,6 @@ lyrics-finder/ ├── client/ # React + Vite frontend │ ├── src/ │ 
 
 ### 📦 Clone the Repository
 
-```bash
-git clone https://github.com/Akhand0ps/lyrics-finder.git
-cd lyrics-finder
-
-
-
-
-cd server
-npm install
-
-
-
-PORT=5001
-GENIUS_API_KEY=your_genius_api_key
-npm start
-
-
-Frontend
-cd client
-npm install
-VITE_FIREBASE_API_KEY=your_firebase_api_key
-VITE_HUGGING_FACE_API_KEY=your_hugging_face_api_key
-npm run dev
-
-
-🐍 Python (Flask Microservice)
-cd python
-pip install -r requirements.txt
-
-Create .env file:
-GENIUS_ACCESS_TOKEN=your_genius_access_token
-HUGGING_FACE_API_KEY=your_hugging_face_api_key
-python audio_service.py
-
 
 
 🌍 Environment Variables Summary
@@ -131,13 +97,3 @@ Contributions are welcome! Please fork the repo and open a PR.
 
 
 This project is licensed under the MIT License
-
-Built with ❤️ by Akhand & Apoorva
-
-yaml
-Copy
-Edit
-
----
-
-Let me know if you want this saved into a `README.md` file or committed to your repo with Git.
